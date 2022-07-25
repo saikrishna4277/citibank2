@@ -2,7 +2,7 @@ execution:
 - executor: selenium
   scenario: open_page
 
-scenarios:
+ scenarios:
   open_page:
     browser: Chrome
     timeout: 10s
