@@ -6,6 +6,6 @@ execution:
   open_page:
     browser: Chrome
     timeout: 6s
-    think-time: 3s
+    think-time: 10s
     requests:
     - url: http://blazedemo.com
