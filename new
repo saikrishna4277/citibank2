@@ -1,0 +1,16 @@
+27
+
+#!/bin/bash
+echo "plese give the name of the log file to the followed "
+read a
+tail -f $a
+
+29
+
+#!/bin/bash
+echo "give the name of the file system"
+read a
+echo "checking if the file system mounted or not"
+findmnt $a
+echo "free space in the mounted filesystem"
+findmnt --df
